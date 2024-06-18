@@ -63,6 +63,10 @@ Normalized Difference Water Index (NDWI) is calculated as follows:
 Normalized Difference Built-up Index (NDBI) is calculated as follows:
 \[ NDBI = \frac{SWIR - NIR}{SWIR + NIR} \]
 
+### Electricity Data
+Electricity usage data is represented alongside the indices to analyze its correlation with vegetation, water, and built-up indices. The data is processed similarly to the indices for comparison purposes.
+
+
 ## Visualizations
 
 ### Line Graphs
@@ -105,6 +109,7 @@ plt.title('Block-Based Indices Heatmap')
 plt.xlabel('Block Index')
 plt.ylabel('Index Type')
 plt.show()
+
 ```
 ### Pie Charts
 Pie charts are used to visualize the proportion of each index's sum of absolute differences.
@@ -132,6 +137,9 @@ pip install -r requirements.txt
 python script_name.py
 
 ```
+
+### Learn More
+If you want to delve deeper into the algorithms and methodologies used in this project, please read my detailed article on [Medium](https://medium.com/@royabhisek083/exploring-spatio-temporal-urbanization-patterns-using-satellite-data-278b8c8a46ff). This article explores the spatio-temporal urbanization patterns using satellite data and provides a comprehensive overview of the techniques implemented in this project. Reading the article will provide you with valuable insights and a thorough understanding of the project's background and significance.
 
 
 
